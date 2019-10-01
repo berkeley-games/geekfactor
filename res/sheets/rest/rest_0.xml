@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:19876d27e3635f3e90c748c43b55d2de:e7c559daa728c08e4358fc3dee343701:7da171e34a335c88519834c2c38abf67$ -->
+<TextureAtlas imagePath="rest_0.png" width="1945" height="2048">
+    <SubTexture name="accept" x="1915" y="1" rotated="true" width="27" height="36"/>
+    <SubTexture name="ach_challenge_off" x="1029" y="1570" width="185" height="185"/>
+    <SubTexture name="ach_challenge_on" x="1216" y="1570" width="185" height="185"/>
+    <SubTexture name="ach_create_gme_off" x="1218" y="1757" width="185" height="185"/>
+    <SubTexture name="ach_create_gme_on" x="1755" y="749" width="185" height="185"/>
+    <SubTexture name="ach_friends_off" x="1755" y="936" width="185" height="185"/>
+    <SubTexture name="ach_friends_on" x="1755" y="1123" width="185" height="185"/>
+    <SubTexture name="ach_play_lvl_off" x="1403" y="1570" width="185" height="185"/>
+    <SubTexture name="ach_play_lvl_on" x="1405" y="1757" width="185" height="185"/>
+    <SubTexture name="ach_quest_cat_off" x="1528" y="1283" width="185" height="185"/>
+    <SubTexture name="ach_quest_cat_on" x="1715" y="1310" width="185" height="185"/>
+    <SubTexture name="ach_quest_row_off" x="1590" y="1497" width="185" height="185"/>
+    <SubTexture name="ach_star_off" x="1505" y="1470" width="69" height="70"/>
+    <SubTexture name="ach_star_on" x="1838" y="78" width="70" height="70"/>
+    <SubTexture name="add" x="741" y="1820" width="44" height="44"/>
+    <SubTexture name="all_time" x="1480" y="829" rotated="true" width="44" height="51"/>
+    <SubTexture name="back_button" x="1902" y="1310" rotated="true" width="42" height="54"/>
+    <SubTexture name="back_button_drk" x="1902" y="1366" rotated="true" width="42" height="54"/>
+    <SubTexture name="burger_icon" x="951" y="1912" width="44" height="38"/>
+    <SubTexture name="button_spin" x="802" y="1209" width="247" height="247"/>
+    <SubTexture name="coin" x="1877" y="1679" width="50" height="50"/>
+    <SubTexture name="decline" x="1846" y="1976" width="36" height="36"/>
+    <SubTexture name="event_icon" x="1592" y="1857" width="148" height="148"/>
+    <SubTexture name="facebook_icon" x="1838" y="1" width="75" height="75"/>
+    <SubTexture name="icon_WiFi_lrg" x="802" y="1458" width="225" height="225"/>
+    <SubTexture name="icon_WiFi_sm" x="900" y="2007" width="49" height="40"/>
+    <SubTexture name="icon_WiFi_sm_grey" x="1884" y="1834" rotated="true" width="40" height="49"/>
+    <SubTexture name="icon_all_lrg" x="1074" y="889" width="225" height="225"/>
+    <SubTexture name="icon_all_sm" x="1877" y="1731" width="50" height="50"/>
+    <SubTexture name="icon_collaboration_lrg" x="1301" y="889" width="225" height="225"/>
+    <SubTexture name="icon_collaboration_sm" x="1877" y="1783" rotated="true" width="48" height="49"/>
+    <SubTexture name="icon_collaboration_sm_grey" x="690" y="1820" width="49" height="48"/>
+    <SubTexture name="icon_datacenter_lrg" x="1528" y="829" width="225" height="225"/>
+    <SubTexture name="icon_datacenter_sm" x="1742" y="1976" width="50" height="33"/>
+    <SubTexture name="icon_datacenter_sm_grey" x="1846" y="2014" width="50" height="33"/>
+    <SubTexture name="icon_general_lrg" x="802" y="1685" width="225" height="225"/>
+    <SubTexture name="icon_general_sm" x="1918" y="437" width="26" height="49"/>
+    <SubTexture name="icon_general_sm_grey" x="1918" y="488" width="26" height="49"/>
+    <SubTexture name="icon_history_lrg" x="1074" y="1116" width="225" height="225"/>
+    <SubTexture name="icon_history_sm" x="1910" y="78" rotated="true" width="32" height="48"/>
+    <SubTexture name="icon_history_sm_grey" x="1898" y="1982" rotated="true" width="32" height="48"/>
+    <SubTexture name="icon_routing_lrg" x="1301" y="1116" width="225" height="225"/>
+    <SubTexture name="icon_routing_sm" x="683" y="1870" width="49" height="39"/>
+    <SubTexture name="icon_routing_sm_grey" x="900" y="1912" width="49" height="39"/>
+    <SubTexture name="icon_security_lrg" x="1528" y="1056" width="225" height="225"/>
+    <SubTexture name="icon_security_sm" x="1902" y="1422" width="42" height="50"/>
+    <SubTexture name="icon_security_sm_grey" x="1794" y="1976" rotated="true" width="50" height="42"/>
+    <SubTexture name="icon_switching-routing_lrg" x="1051" y="1343" width="225" height="225"/>
+    <SubTexture name="icon_switching-routing_sm" x="1003" y="889" rotated="true" width="50" height="43"/>
+    <SubTexture name="icon_switching-routing_sm_grey" x="1884" y="1937" rotated="true" width="50" height="43"/>
+    <SubTexture name="icon_switching_lrg" x="1278" y="1343" width="225" height="225"/>
+    <SubTexture name="icon_switching_sm" x="1927" y="1783" rotated="true" width="17" height="50"/>
+    <SubTexture name="icon_switching_sm_grey" x="1051" y="1209" rotated="true" width="17" height="50"/>
+    <SubTexture name="menu_shadow" x="1" y="2019" width="500" height="25"/>
+    <SubTexture name="multiplayer_bttn_txt" x="1029" y="1757" rotated="true" width="187" height="180"/>
+    <SubTexture name="nav_menu_dwnstate" x="936" y="1" width="900" height="150"/>
+    <SubTexture name="powerup_5050" x="1804" y="153" width="140" height="140"/>
+    <SubTexture name="powerup_5050_lrg" x="936" y="617" width="270" height="270"/>
+    <SubTexture name="powerup_ask_audience" x="1804" y="295" width="140" height="140"/>
+    <SubTexture name="powerup_ask_audience_lrg" x="1208" y="617" width="270" height="270"/>
+    <SubTexture name="powerup_tme_frz" x="1742" y="1834" width="140" height="140"/>
+    <SubTexture name="powerup_tme_frz_lrg" x="1480" y="557" width="270" height="270"/>
+    <SubTexture name="profile_large" x="1400" y="153" width="402" height="402"/>
+    <SubTexture name="score" x="1884" y="1885" width="50" height="50"/>
+    <SubTexture name="search_icon" x="734" y="1870" width="38" height="38"/>
+    <SubTexture name="shadow_lrg" x="936" y="153" width="462" height="462"/>
+    <SubTexture name="shadow_sm" x="1752" y="557" width="192" height="190"/>
+    <SubTexture name="shadow_tiny" x="1804" y="437" width="112" height="112"/>
+    <SubTexture name="single_player_bttn_txt" x="1592" y="1684" width="133" height="171"/>
+    <SubTexture name="store_icon_lrg" x="802" y="937" width="270" height="270"/>
+    <SubTexture name="store_icon_sm" x="1727" y="1684" width="148" height="148"/>
+    <SubTexture name="store_left" x="1400" y="557" rotated="true" width="65" height="40"/>
+    <SubTexture name="store_line" x="683" y="937" rotated="true" width="5" height="908"/>
+    <SubTexture name="store_right" x="936" y="889" rotated="true" width="65" height="40"/>
+    <SubTexture name="submit_question" x="1" y="937" rotated="true" width="680" height="1080"/>
+    <SubTexture name="tutorial_arrow" x="683" y="1944" rotated="true" width="215" height="103"/>
+    <SubTexture name="tutorial_bar_1" x="690" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_2" x="706" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_3" x="722" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_4" x="738" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_5" x="754" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_6" x="770" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="tutorial_bar_7" x="786" y="937" rotated="true" width="14" height="881"/>
+    <SubTexture name="versus_bttn_txt" x="1777" y="1497" rotated="true" width="149" height="180"/>
+    <SubTexture name="weekly" x="900" y="1953" width="44" height="44"/>
+    <SubTexture name="win_animation" x="1" y="1" width="933" height="934"/>
+</TextureAtlas>
