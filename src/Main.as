@@ -45,7 +45,6 @@ package
 					onSuspend = AppContext.onAppExit;
 					AndroidFullScreen.immersiveMode();
 
-					// server key: AIzaSyBmEASR8cMqMN4df7Zm9nxPbr7gBFG9XuM
 					PushNotification.init("747399574859", null);
 				}
 			}
