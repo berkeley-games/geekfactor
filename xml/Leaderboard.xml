@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/23.0">
+
+    <id>com.cisco.geekfactorleaderboard</id>
+    <filename>Geek Factor Leaderboard</filename>
+    <name>Geek Factor Leaderboard</name>
+    <versionNumber>0.0.4</versionNumber>
+    <versionLabel>0.0.4</versionLabel>
+    <description>Cisco Geek Factor Leaderboard</description>
+    <copyright>Ten 90 Studios</copyright>
+
+    <initialWindow>
+        <content>Leaderboard.swf</content>
+        <title>Cisco Geek Factor</title>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>false</visible>
+        <minimizable>true</minimizable>
+        <maximizable>false</maximizable>
+        <resizable>false</resizable>
+        <aspectRatio>portrait</aspectRatio>
+        <autoOrients>false</autoOrients>
+        <fullScreen>false</fullScreen>
+        <renderMode>direct</renderMode>
+        <depthAndStencil>true</depthAndStencil>
+    </initialWindow>
+
+    <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+
+    <icon>
+        <image16x16>res/icons/desktop/16.png</image16x16>
+        <image32x32>res/icons/desktop/32.png</image32x32>
+        <image48x48>res/icons/desktop/48.png</image48x48>
+        <image128x128>res/icons/desktop/128.png</image128x128>
+    </icon>
+
+</application>

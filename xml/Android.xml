@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<application xmlns="http://ns.adobe.com/air/application/22.0">
+
+    <id>com.cisco.trivianet</id>
+    <filename>Geek Factor</filename>
+    <name>Geek Factor</name>
+    <versionNumber>1.0.8</versionNumber>
+    <versionLabel>1.0.8</versionLabel>
+    <description>Cisco Geek Factor</description>
+    <copyright>Ten 90 Studios</copyright>
+
+    <initialWindow>
+        <content>Android.swf</content>
+        <title>Cisco Geek Factor</title>
+        <systemChrome>standard</systemChrome>
+        <transparent>false</transparent>
+        <visible>true</visible>
+        <minimizable>true</minimizable>
+        <maximizable>true</maximizable>
+        <resizable>false</resizable>
+        <aspectRatio>portrait</aspectRatio>
+        <autoOrients>false</autoOrients>
+        <fullScreen>false</fullScreen>
+        <renderMode>direct</renderMode>
+        <softKeyboardBehavior>pan</softKeyboardBehavior>
+        <requestedDisplayResolution>standard</requestedDisplayResolution>
+        <depthAndStencil>true</depthAndStencil>
+    </initialWindow>
+
+    <supportedProfiles>mobileDevice</supportedProfiles>
+
+    <icon>
+        <image36x36>res/icons/android/36.png</image36x36>
+        <image48x48>res/icons/android/48.png</image48x48>
+        <image72x72>res/icons/android/72.png</image72x72>
+        <image96x96>res/icons/android/96.png</image96x96>
+        <image144x144>res/icons/android/144.png</image144x144>
+        <image192x192>res/icons/android/192.png</image192x192>
+    </icon>
+
+     <extensions>
+         <extensionID>com.mesmotronic.ane.fullscreen</extensionID>
+         <extensionID>com.myflashlab.air.extensions.gcm</extensionID>
+         <extensionID>com.myflashlab.air.extensions.facebook</extensionID>
+         <extensionID>com.myflashlab.air.extensions.dependency.overrideAir</extensionID>
+         <extensionID>com.myflashlab.air.extensions.dependency.androidSupport</extensionID>
+         <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.gcm</extensionID>
+         <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.iid</extensionID>
+         <extensionID>com.myflashlab.air.extensions.dependency.googlePlayServices.basement</extensionID>
+    </extensions>
+
+    <android>
+        <containsVideo>true</containsVideo>
+        <manifestAdditions>
+            <![CDATA[
+            <manifest android:installLocation="auto">
+
+                <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+                <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+                <uses-permission android:name="android.permission.WAKE_LOCK" />
+                <uses-permission android:name="android.permission.VIBRATE" />
+                <uses-permission android:name="android.permission.INTERNET" />
+                <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+                <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+                <permission android:name="air.com.doitflash.gcm.permission.C2D_MESSAGE" android:protectionLevel="signature" />
+                <uses-permission android:name="air.com.doitflash.gcm.permission.C2D_MESSAGE" />
+
+                <application android:hardwareAccelerated="true" android:allowBackup="true">
+                    <activity android:hardwareAccelerated="false">
+                        <intent-filter>
+                            <action android:name="android.intent.action.MAIN" />
+                            <category android:name="android.intent.category.LAUNCHER" />
+                        </intent-filter>
+                        <intent-filter>
+                            <action android:name="android.intent.action.VIEW" />
+                            <category android:name="android.intent.category.BROWSABLE" />
+                            <category android:name="android.intent.category.DEFAULT" />
+                            <data android:scheme="air.com.doitflash.exfacebook2" />
+                            <data android:scheme="air.com.doitflash.gcm" />
+                        </intent-filter>
+                    </activity>
+
+                    <receiver android:name="com.doitflash.gcm.handler.GcmBroadcastReceiver" android:permission="com.google.android.c2dm.permission.SEND" >
+                        <intent-filter>
+                            <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                            <category android:name="air.com.doitflash.gcm" />
+                        </intent-filter>
+                    </receiver>
+                    <receiver android:name="com.doitflash.gcm.alarm.RebootAutoStartAlarms">
+                        <intent-filter>
+                            <action android:name="android.intent.action.BOOT_COMPLETED" />
+                        </intent-filter>
+                    </receiver>
+                    <service android:name="com.doitflash.gcm.handler.GcmMessageHandler" />
+                    <receiver android:name="com.doitflash.gcm.alarm.alarmTypes.Alarm_Notification" />
+                    <activity android:name="com.doitflash.gcm.alarm.WakeActivity" android:theme="@style/Theme.Transparent" />
+
+                    <activity android:name="com.facebook.FacebookActivity"          android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"   android:theme="@style/Theme.Transparent" />
+                    <activity android:name="com.doitflash.facebook.access.MyLogin"  android:configChanges="fontScale|keyboard|keyboardHidden|locale|mnc|mcc|navigation|orientation|screenLayout|screenSize|smallestScreenSize|uiMode|touchscreen"   android:theme="@style/Theme.Transparent" />
+                    <provider android:authorities="com.facebook.app.FacebookContentProvider192354097810472" android:name="com.facebook.FacebookContentProvider" android:exported="true"/>
+                    <activity android:name="com.doitflash.facebook.sharing.MyShare" android:theme="@style/Theme.Transparent" />
+                    <activity android:name="com.doitflash.facebook.invite.MyInvite" android:theme="@style/Theme.Transparent" />
+
+                </application>
+            </manifest>
+            ]]>
+        </manifestAdditions>
+    </android>
+</application>
